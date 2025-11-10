@@ -17,7 +17,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="telyu-street">
         <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home />} />
